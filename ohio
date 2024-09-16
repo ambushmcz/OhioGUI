@@ -9,7 +9,7 @@ if game.PlaceId == 7239319209 then
 end
 local VisualsTab = Window:MakeTab({
 	Name = "ESP",
-	Icon = "rbxassetid://94729293244332",
+	Icon = "rbxassetid://131158338829724",
 	PremiumOnly = false
 })
 local CF = CFrame.new
