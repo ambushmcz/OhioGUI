@@ -1,15 +1,15 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CTICHARA/DoorsGUI/main/library')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ambushmcz/OhioGUI/main/orionLibrary')))()
 local Window = OrionLib:MakeWindow({IntroText = "DoorsGUI v1.9",Name = "Doors - By Стич#6687", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
-if game.PlaceId == 7239319209 then
+if game.PlaceId == 6516141723 then
     OrionLib:MakeNotification({
         Name = "Ошибка",
-        Content = "ohio !.",
+        Content = "Невозможно использовать в лобби, зайдите в игру.",
         Time = 3
     })
 end
 local VisualsTab = Window:MakeTab({
 	Name = "ESP",
-	Icon = "rbxassetid://131158338829724",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 local CF = CFrame.new
